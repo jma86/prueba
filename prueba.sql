@@ -25,6 +25,7 @@ DROP TABLE IF EXISTS `new_table`;
 CREATE TABLE `new_table` (
   `idnew_table` int(11) NOT NULL,
   `prueba` varchar(45) NOT NULL,
+  `conflicto` varchar(45) NOT NULL,
   PRIMARY KEY (`idnew_table`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -47,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-04-12  9:16:01
+-- Dump completed on 2019-04-12  9:28:36
